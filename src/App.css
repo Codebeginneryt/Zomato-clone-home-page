@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merriweather+Sans:ital,wght@1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    padding: 10px 120px;
+}
+.navbar .logo h1{
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: -1px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+}
+.navbar .searchBar{
+    width: 60%;
+    height: 50px;
+    border: 0.5px solid lightgray;
+    padding: 10px;
+    box-shadow: 0 5px 10px -5px rgba(0, 0,0,0.2);
+    border-radius: 5px;
+    margin-left: -100px;
+}
+.navbar .searchBar .placeBar{
+    border-right: 2px solid lightgrey;
+    padding-right: 10px;
+}
+.navbar .searchBar .placeBar select{
+    border: none;
+    outline: none;
+    width:200px;
+}
+.navbar .searchBar .placeBar option{
+    border: none;
+    outline: none;
+}
+.navbar .searchBar .inputBar{
+    padding-left: 10px;
+}
+.navbar .searchBar .inputBar input{
+    width: 340px;
+    border: none;
+    outline: none;
+}
+.navbar .loginBtn a{
+    margin: 12px;
+    font-size: 18px;
+    text-decoration: none;
+    color:grey;
+}
+.underNavbar{
+    padding-left: 100px;
+    margin-top: -100px;
+}
+.underNavbar .navBtn .icon{
+    color:grey;
+    height:30px; 
+    width:30px;
+    font-size:50px;
+    margin:10px;
+    padding:20px;
+    background:lightgrey;
+    border-radius:50%;
+}
+.underNavbar .navBtn:hover{
+    border-bottom: 2px solid red;
+}
+.underNavbar .navBtn .navItem{
+margin: 30px 30px 30px 10px;
+}
+.underNavbar .navBtn .navItem a{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+}
+.filter{
+    padding:0px 120px;
+}
+.filter .filterBtn button{
+    height: 40px;
+    width: 100px;
+    margin: 10px;
+    background: white;
+    border: 1px solid lightgrey;
+    outline: none;
+    color: grey;
+    border-radius: 10px;
+    font-size: 14px;
+}
+.filter .filterBtn button:hover{
+    background:#f8f8f8;
+}
+.foodItemBox{
+    margin: 20px 0px;
+    width: 100%;
+    background: #f8f8f8;
+    padding: 30px 120px;
+}
+.foodItemBox h1{
+    font-size: 30px;
+}
+.foodItemBox .foodItem .foodCard{
+    margin: 20px;
+}
+.foodItemBox .foodItem .foodCard .foodImg{
+    height: 9rem;
+    width: 9rem;
+}
+.foodItemBox .foodItem .foodCard .foodImg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.foodItemBox .foodItem .foodCard .foodName{
+    text-align: center;
+    margin: 10px;
+}
+.foodItemBox .foodItem .foodCard .foodName p{
+    font-size: 20px;
+}
+/* Brand Item CSS */
+.brandItemBox{
+    margin: 20px 0px;
+    width: 100%;
+    padding: 30px 120px;
+}
+.brandItemBox h1{
+    font-size: 30px;
+}
+.brandItemBox .brandItem .brandCard{
+    margin: 20px;
+}
+.brandItemBox .brandItem .brandCard .brandImg{
+    height: 9rem;
+    width: 9rem;
+}
+.brandItemBox .brandItem .brandCard .brandImg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.brandItemBox .brandItem .brandCard .brandName{
+    text-align: center;
+    margin: 10px;
+}
+.brandItemBox .brandItem .brandCard .brandName p{
+    font-size: 20px;
+}
+.card_hover{
+    border: none;
+}
+.card_hover:hover{
+    border:0.5px solid lightgrey;
+    box-shadow: 0 5px 10px -5px rgba(0, 0,0,0.2);
+}
+
+.popularCities .places .placeBox{
+    width: 350px;
+    border: 1px solid lightgrey;
+    padding: 16px;
+    height: 90px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.popularCities .places .placeBox:hover{
+    box-shadow: 0 5px 10px -5px rgba(0, 0,0,0.2);
+}
+.popularCities .places .placeBox h1{
+    font-size: 20px;
+    color: #1c1c1c;
+}
+.popularCities .places .placeBox p{
+    font-size: 18px;
+    color: #9C9C9C;
+    font-weight:normal;
+}
+.popularCities .places .placeBox .placeErrow{
+    margin: 20px 0 0 100px; 
+    text-align: right;
+}
+.footer{
+    padding: 50px 120px; 
+    width: 100%;
+    background: #F8F8F8;
+}
+.footer .logo h1{
+    font-weight: bolder;
+    font-size: 40px;
+    font-style: italic;
+    letter-spacing: -1px;
+    font-family: 'Anton', sans-serif;
+font-family: 'Merriweather Sans', sans-serif;
+}
+.footer .footItem{
+    margin-left: 60%;
+}
+.footer .footItem button img{
+    height:20px;
+    width: 40px;
+}
+.footer .footItem button{
+    padding: 5px;
+    height: 40px;
+    width: 130px;
+    font-size: 18px;
+    margin: 10px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    background: white;
+    color: grey;
+}
+.footer .footerNav{
+    margin: 40px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footerNav h1{
+    font-size: 16px;
+    font-weight: 600;
+}
+.footer .footerNav p{
+    font-size: 14px;
+}
+.footer .copyright p{
+    font-size: 14px;
+}
